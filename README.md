@@ -1,3 +1,3 @@
 # card-exercise
 
-This is an execuise of a card design component
+This is an exercise of a card design component

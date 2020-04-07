@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Design</title>
+    <style>
+      body {
+        background: #eee;
+        margin: 100px;
+        width: 150px;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 400px;
+        height: 350px;
+        box-shadow: 0 5px 20px 4px #999;
+        transition: all ease 0.4s;
+      }
+
+      .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 5px 20px 10px #999;
+      }
+
+      .card-img {
+        background: url(https://drscdn.500px.org/photo/304433233/q%3D80_m%3D2000_k%3D1/v2?sig=32f6b7e77903c301dfed07592b94eb28d4ba456633fbc064a02677ba80504ece);
+        background-size: cover;
+        height: 280px;
+        border-radius: inherit;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .card-description {
+        margin: 10px 0;
+        padding-left: 0.5em;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        color: #333;
+      }
+
+      .card-text {
+        color: #999;
+        font-size: 14px;
+        margin: 10px 0;
+      }
+
+      .card-name {
+        position: absolute;
+        right: 2em;
+        top: 1em;
+        font-family: sans-serif;
+        background: red;
+        font-style: italic;
+        color: #eee;
+        padding: 3px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="card-img">
+        <div class="card-name">USYD</div>
+      </div>
+      <div class="card-description">
+        <a href="https://www.sydney.edu.au/"
+          ><strong> The University of Sydney</strong></a
+        >
+        <p class="card-text">
+          Though the stars may change, the mind remains the same
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

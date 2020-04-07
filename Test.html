@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+
+<body>
+    <h1>This is Header</h1>
+    <h2>This is header h2</h2>
+    <h3>This is header h3</h3>
+    <p>
+        Test </br>
+        Test </br>
+        Test
+    </p>
+    <span>Test1</span>
+    <span>Test2</span>
+    <table border="1">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td rowspan="2">data 2</td>
+            <td>data 3</td>
+            <td>data 4</td>
+        </tr>
+        <tr>
+            <td>data 1</td>
+
+            <td>data 3</td>
+            <td>data 4</td>
+        </tr>
+    </table>
+    <iframe>test1</iframe>
+    <a href="https://www.jiangren.com.au" target="test1">Jiangren</a>
+    <img src="https://res.cloudinary.com/diliv19aw/image/upload/v1581773931/a4jx7lqdrmiklqw4lm0x.png">
+    <!--form a-->
+    <form>
+        <input type="text" name="name" placeholder="Input your name">
+        <input type="number" name="num" placeholder="Input your name">
+        <input type="file">
+        <textarea name="content" placeholder="say something"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <h1>Hello World</h1>
+    <p>Hello World</p>
+    <div id="select">Hello</div>
+    <!--class can be defined by multiple elements-->
+    <div class="div1">Hello</div>
+    <div>
+        <p>
+            Test
+            <span>
+                <p>
+                    Test1
+                </p>
+            </span>
+
+        </p>
+    </div>
+</body>
+<style>
+    body {
+        background: url(https://jiangren.com.au/images/bgs/career-opportunity.png)
+    }
+
+    h1 {
+        color: green;
+        font-size: 16px;
+    }
+
+    p {
+        color: red;
+    }
+
+    #select {
+        color: aqua;
+    }
+
+    .select {
+        color: blue
+    }
+
+    * {
+        color: darkgoldenrod;
+    }
+
+    div>p {
+        color: red
+    }
+
+    img::after {
+        content: 'test';
+        display: block;
+        height: 100px;
+        width: 100px;
+        background: red;
+    }
+
+    .div1,
+    .div2 {
+        width: 100px;
+        height: 200px;
+        margin: 20px;
+        padding: 20px;
+        border: dashed 4px pink;
+        border-radius: 20px;
+        font-size: 2em;
+    }
+</style>
+
+</html>
